@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+iframe {
+	width: 100%; /* Ajusta según sea necesario */
+	height: 110vh;
+	border: none; /* Opcional: quita el borde del iframe */
+}
+
+#iframehora {
+	width: 100%; /* Ajusta según sea necesario */
+	height: 10vh;
+}
+
+@font-face {
+	font-family: 'Sandlera';
+	src: url('../fuentes/Sandlera.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#piepagina {
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 1; /* El fixed-bottom tiene un z-index menor */
+	font-family: 'Sandlera', serif;
+}
+
